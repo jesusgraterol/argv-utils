@@ -1,32 +1,29 @@
-# argv utils
+# argv Utils
 
 The `argv-utils` package is a lightweight library for Node.js that simplifies working with command-line arguments passed to your scripts. It streamlines the process of accessing and managing arguments from `process.argv` property.
 
 ## Getting Started
 
-Install the library:
+Install the package:
 ```bash
 $ npm install -D argv-utils
 ```
 
-Parse any args:
-
-```bash
-$ node my-script.js --one --two="Hello World!" --three --four="false"
-```
+Manage your arguments with ease:
 ```typescript
+$ node my-script.js --one --two="Hello World!" --someValue="false"
+
 // my-script.js
 import { argv } from 'node:process';
-import parse from 'argv-utils';
+import { parseArgs } from 'argv-utils';
 
-parse(argv);
+parseArgs(argv);
 // {
 //    execPath: '/usr/local/bin/node',
 //    scriptPath: '/path/to/my-script.js',
 //    one: 'true',
 //    two: 'Hello World!',
-//    three: 'true',
-//    four: 'false',
+//    someValue: 'false',
 // }
 ```
 
@@ -38,7 +35,7 @@ parse(argv);
 
 ## Built With
 
-- TypeScript
+- JavaScript / TypeScript
 
 
 
@@ -59,6 +56,16 @@ parse(argv);
 ## Acknowledgments
 
 - ...
+
+
+
+
+
+<br/>
+
+## @TODOS
+
+- [ ] ...
 
 
 
