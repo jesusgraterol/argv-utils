@@ -1,4 +1,4 @@
-import { parseArgs } from './index.js';
+import { parseArgs } from './parser.js';
 
 /* ************************************************************************************************
  *                                            HELPERS                                             *
@@ -15,10 +15,10 @@ const mockArgv = (args: string[]): string[] => ([
 
 
 /* ************************************************************************************************
- *                                         PARSER TESTS                                           *
+ *                                             TESTS                                              *
  ************************************************************************************************ */
 
-describe('parse', () => {
+describe('parseArgs', () => {
   test('can parse a shell script when no args have been provided', () => {
     expect(parseArgs(mockArgv([]))).toStrictEqual({
       execPath: '/usr/local/bin/node',

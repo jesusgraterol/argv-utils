@@ -1,4 +1,4 @@
-import { isArgValid, parseArg } from './index.utils.js';
+import { isArgValid, parseArg } from './parser.utils.js';
 
 /* ************************************************************************************************
  *                                      PARSER HELPERS TESTS                                      *
