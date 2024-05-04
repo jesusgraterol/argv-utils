@@ -40,6 +40,17 @@ parseArgs(argv);
 
 
 
+<br/>
+
+## Running the Tests
+
+```bash
+$ npm run test:unit
+```
+
+
+
+
 
 <br/>
 
