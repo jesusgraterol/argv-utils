@@ -7,7 +7,9 @@
   "type": "module",
   "scripts": {
     "start": "tsc --project tsconfig.build.json",
-    "test": "echo \"Error: tests are executed with  npm run test:unit\" && exit 1",
+    "test": "echo \"Error: tests are executed with  npm run test:(integration|unit)\" && exit 1",
+    "test:e2e": "jest --config=jest.test-e2e.config.json --no-cache",
+    "test:integration": "jest --config=jest.test-integration.config.json --no-cache",
     "test:unit": "jest --config=jest.test-unit.config.json --no-cache"
   },
   "repository": {

@@ -1,0 +1,12 @@
+{
+  "verbose": true,
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testRegex": "(/__tests__/.*|(\\.|/)(test-integration|spec-integration))\\.[jt]sx?$",
+  "moduleNameMapper": {
+    "(.+)\\.js": "$1"
+  },
+  "extensionsToTreatAsEsm": [
+    ".ts"
+  ]
+}
