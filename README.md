@@ -9,9 +9,11 @@ Install the package:
 npm install -D argv-utils
 ```
 
-### Usage
+### Examples
+
+Extract the arguments passed to the `my-file.js` script:
 ```bash
-node my-script.js --one --two="Hello World!" --someValue="false"
+node my-file.js --one --two="Hello World!" --someValue="false"
 ```
 ```typescript
 // my-script.js
@@ -28,7 +30,12 @@ parseArgs(argv);
 // }
 ```
 
-### Types
+
+
+
+<br/>
+
+## Types
 ```typescript
 /**
  * Base Parsed Args
