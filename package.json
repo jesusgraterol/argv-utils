@@ -1,7 +1,7 @@
 {
   "name": "argv-utils",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "The argv-utils package is a lightweight library for Node.js that simplifies working with command-line arguments passed to your scripts. It streamlines the process of accessing and managing arguments from process.argv property",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
