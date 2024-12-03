@@ -1,4 +1,4 @@
-import { IParsedArg } from './types.js';
+import { IParsedArg } from '../shared/types.js';
 
 /* ************************************************************************************************
  *                                            HELPERS                                             *

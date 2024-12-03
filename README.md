@@ -9,7 +9,7 @@ Install the package:
 npm install -D argv-utils
 ```
 
-Manage your arguments with ease:
+### Usage
 ```bash
 node my-script.js --one --two="Hello World!" --someValue="false"
 ```
@@ -28,15 +28,47 @@ parseArgs(argv);
 // }
 ```
 
+### Types
+```typescript
+/**
+ * Base Parsed Args
+ * The args that will always be present when a Node.js process is launched; taking the indexes 0 and 1 in the vector.
+ */
+interface IBaseParsedArgs {
+  // the absolute pathname of the executable that started the Node.js process
+  execPath: string,
 
+  // the path to the JavaScript file being executed
+  scriptPath: string,
+}
 
+/**
+ * Parsed Args
+ * The arguments provided by the process.argv property when running a script from the shell.
+ */
+interface IParsedArgs extends IBaseParsedArgs {
+  // the rest of the extracted arguments
+  [argKey: string]: string
+}
+```
+
+If you wish to enforce strong typing in your script, extend the base type as follows:
+```typescript
+interface IMyScriptArgs extends IBaseParsedArgs {
+  src?: string,
+  init?: 'true',
+  development?: 'true',
+  staging?: 'true',
+  production?: 'true',
+}
+```
 
 
 <br/>
 
 ## Built With
 
-- JavaScript / TypeScript
+- TypeScript
 
 
 

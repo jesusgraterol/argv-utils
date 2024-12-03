@@ -1,4 +1,4 @@
-import { parseArgs } from './parser.js';
+import { parseArgs } from './index.js';
 
 /* ************************************************************************************************
  *                                            HELPERS                                             *

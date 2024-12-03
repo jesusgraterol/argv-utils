@@ -34,13 +34,13 @@
   },
   "homepage": "https://github.com/jesusgraterol/argv-utils#readme",
   "devDependencies": {
-    "@types/jest": "^29.5.12",
-    "@types/node": "^20.12.8",
-    "@typescript-eslint/eslint-plugin": "^7.8.0",
-    "@typescript-eslint/parser": "^7.8.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.17.9",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
     "jest": "^29.7.0",
-    "ts-jest": "^29.1.2",
-    "typescript": "^5.4.5"
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
   }
 }

@@ -1,7 +1,7 @@
-import { isArgValid, parseArg } from './parser.utils.js';
+import { isArgValid, parseArg } from './index.js';
 
 /* ************************************************************************************************
- *                                      PARSER HELPERS TESTS                                      *
+ *                                         IMPLEMENTATION                                         *
  ************************************************************************************************ */
 
 describe('isArgValid', () => {
