@@ -16,7 +16,7 @@ Extract the arguments passed to the `my-file.js` script:
 node my-file.js --one --two="Hello World!" --someValue="false"
 ```
 ```typescript
-// my-script.js
+// my-file.js
 import { argv } from 'node:process';
 import { parseArgs } from 'argv-utils';
 
