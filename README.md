@@ -97,26 +97,6 @@ npm run test:unit
 
 <br/>
 
-## Acknowledgments
-
-- ...
-
-
-
-
-
-<br/>
-
-## @TODOS
-
-- [ ] ...
-
-
-
-
-
-<br/>
-
 ## Deployment
 
 Install dependencies:
