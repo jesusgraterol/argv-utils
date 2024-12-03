@@ -6,13 +6,14 @@ The `argv-utils` package is a lightweight library for Node.js that simplifies wo
 
 Install the package:
 ```bash
-$ npm install -D argv-utils
+npm install -D argv-utils
 ```
 
 Manage your arguments with ease:
+```bash
+node my-script.js --one --two="Hello World!" --someValue="false"
+```
 ```typescript
-$ node my-script.js --one --two="Hello World!" --someValue="false"
-
 // my-script.js
 import { argv } from 'node:process';
 import { parseArgs } from 'argv-utils';
@@ -45,7 +46,7 @@ parseArgs(argv);
 ## Running the Tests
 
 ```bash
-$ npm run test:unit
+npm run test:unit
 ```
 
 
@@ -88,17 +89,17 @@ $ npm run test:unit
 
 Install dependencies:
 ```bash
-$ npm install
+npm install
 ```
 
 
 Build the library:
 ```bash
-$ npm start
+npm start
 ```
 
 
 Publish to `npm`:
 ```bash
-$ npm publish
+npm publish
 ```
