@@ -9,10 +9,10 @@
  */
 interface IBaseParsedArgs {
   // the absolute pathname of the executable that started the Node.js process
-  execPath: string,
+  execPath: string;
 
   // the path to the JavaScript file being executed
-  scriptPath: string,
+  scriptPath: string;
 }
 
 /**
@@ -21,7 +21,7 @@ interface IBaseParsedArgs {
  */
 interface IParsedArgs extends IBaseParsedArgs {
   // the rest of the extracted arguments
-  [argKey: string]: string
+  [argKey: string]: string;
 }
 
 /**
@@ -29,18 +29,11 @@ interface IParsedArgs extends IBaseParsedArgs {
  * The object that is generated when a valid argument is parsed.
  */
 interface IParsedArg {
-  key: string,
-  value : string
+  key: string;
+  value: string;
 }
-
-
-
 
 /* ************************************************************************************************
  *                                        MODULE EXPORTS                                          *
  ************************************************************************************************ */
-export {
-  IBaseParsedArgs,
-  IParsedArgs,
-  IParsedArg,
-};
+export { IBaseParsedArgs, IParsedArgs, IParsedArg };

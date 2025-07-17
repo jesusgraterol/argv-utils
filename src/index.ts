@@ -25,14 +25,7 @@ const parseArgs = (argv: string[]): IParsedArgs => ({
   ),
 });
 
-
-
-
 /* ************************************************************************************************
  *                                         MODULE EXPORTS                                         *
  ************************************************************************************************ */
-export {
-  parseArgs,
-  type IBaseParsedArgs,
-  type IParsedArgs,
-};
+export { parseArgs, type IBaseParsedArgs, type IParsedArgs };

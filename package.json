@@ -1,12 +1,12 @@
 {
   "name": "argv-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The argv-utils package is a lightweight library for Node.js that simplifies working with command-line arguments passed to your scripts. It streamlines the process of accessing and managing arguments from process.argv property",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "start": "tsc --project tsconfig.build.json",
+    "build": "tsc --project tsconfig.build.json",
     "test": "echo \"Error: tests are executed with  npm run test:(integration|unit)\" && exit 1",
     "test:e2e": "jest --config=jest.test-e2e.config.json --no-cache",
     "test:integration": "jest --config=jest.test-integration.config.json --no-cache",
@@ -34,13 +34,15 @@
   },
   "homepage": "https://github.com/jesusgraterol/argv-utils#readme",
   "devDependencies": {
-    "@types/jest": "^29.5.14",
-    "@types/node": "^20.17.9",
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
-    "eslint-config-airbnb-typescript": "^18.0.0",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.2.5",
-    "typescript": "^5.7.2"
+    "@types/jest": "29.5.14",
+    "@types/node": "20.17.9",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "eslint-config-airbnb-typescript": "18.0.0",
+    "eslint-config-prettier": "10.1.5",
+    "jest": "29.7.0",
+    "prettier": "3.6.2",
+    "ts-jest": "29.2.5",
+    "typescript": "5.7.2"
   }
 }
