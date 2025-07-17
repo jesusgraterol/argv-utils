@@ -1,10 +1,10 @@
 {
-  "extends": ["airbnb-base", "airbnb-typescript/base"],
+  "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "rules": {
-    "no-multiple-empty-lines": [ "error", { "max": 5, "maxEOF": 0 } ],
+    "no-multiple-empty-lines": ["error", { "max": 5, "maxEOF": 0 }],
     "no-underscore-dangle": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/naming-convention": "off"

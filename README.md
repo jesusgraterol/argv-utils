@@ -6,7 +6,7 @@ The `argv-utils` package is a lightweight library for Node.js that simplifies wo
 
 Install the package:
 ```bash
-npm install -D argv-utils
+npm i -D argv-utils
 ```
 
 ### Examples
@@ -97,28 +97,3 @@ npm run test:unit
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
-
-
-
-<br/>
-
-## Deployment
-
-Install dependencies:
-```bash
-npm install
-```
-
-
-Build the library:
-```bash
-npm start
-```
-
-
-Publish to `npm`:
-```bash
-npm publish
-```

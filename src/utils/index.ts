@@ -38,14 +38,7 @@ const parseArg = (arg: string): IParsedArg => {
   return { key, value };
 };
 
-
-
-
-
 /* ************************************************************************************************
  *                                         MODULE EXPORTS                                         *
  ************************************************************************************************ */
-export {
-  isArgValid,
-  parseArg,
-};
+export { isArgValid, parseArg };

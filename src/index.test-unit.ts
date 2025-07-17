@@ -4,15 +4,11 @@ import { parseArgs } from './index.js';
  *                                            HELPERS                                             *
  ************************************************************************************************ */
 
-const mockArgv = (args: string[]): string[] => ([
+const mockArgv = (args: string[]): string[] => [
   '/usr/local/bin/node',
   '/path/to/my-script.js',
   ...args,
-]);
-
-
-
-
+];
 
 /* ************************************************************************************************
  *                                             TESTS                                              *
