@@ -1,13 +1,13 @@
 {
   "name": "argv-utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The argv-utils package is a lightweight library for Node.js that simplifies working with command-line arguments passed to your scripts. It streamlines the process of accessing and managing arguments from process.argv property",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
-    "test": "echo \"Error: tests are executed with  npm run test:(integration|unit)\" && exit 1",
+    "test": "npm run test:unit",
     "test:e2e": "jest --config=jest.test-e2e.config.json --no-cache",
     "test:integration": "jest --config=jest.test-integration.config.json --no-cache",
     "test:unit": "jest --config=jest.test-unit.config.json --no-cache"
