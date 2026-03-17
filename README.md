@@ -85,7 +85,7 @@ interface IMyScriptArgs extends IBaseParsedArgs {
 ## Running the Tests
 
 ```bash
-npm run test:unit
+npm run test
 ```
 
 
